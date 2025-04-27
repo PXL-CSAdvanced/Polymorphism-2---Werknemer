@@ -1,0 +1,18 @@
+﻿<Window x:Class="Polymorphism_2___Werknemer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Polymorphism_2___Werknemer"
+        mc:Ignorable="d"
+        Title="Medewerkers" Height="450" Width="800">
+        <StackPanel>
+            <WrapPanel Margin="20 10 0 0">
+                <Button x:Name="werknemerButton" Content="Werknemer" Width="75" Margin="5" Click="BtnWerknemer_Click"/>
+                <Button x:Name="bediendeButton" Content="Bediende" Width="75" Margin="5" Click="BtnBediende_Click" IsEnabled="False"/>
+                <Button x:Name="kaderButton" Content="Kader" Width="75" Margin="5" Click="BtnKader_Click" IsEnabled="False"/>
+                <Button x:Name="commissieButton" Content="Commissie" Width="75" Margin="5" Click="BtnCommissie_Click" IsEnabled="False"/>
+            </WrapPanel>
+            <ListBox x:Name="medewerkersListBox" Margin="20 5" FontFamily="Consolas"/>
+        </StackPanel>
+</Window>
