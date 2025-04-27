@@ -1,4 +1,4 @@
-# Labo #
+![](./media/Polymorphism-2.gif)
 
 In deze toepassing ga je het tekstbestand *Werknemers.txt* uitlezen waarin de gegevens van het kaderpersoneel, de bedienden en het personeel dat op commissie werkt, zijn opgenomen. Je gaat alle data-gerelateerde zaken in een classlib steken om ze vervolgens in een WPF applicatie en een console applicatie uit te lezen.
 
